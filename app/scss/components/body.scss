@@ -15,6 +15,7 @@ html{
 body{
 	height: 100%;
 }
+::selection{background:#b3d4fc;text-shadow:none}
 *:focus {
 	outline: none;
 	-moz-outline-style: none;
@@ -37,6 +38,8 @@ textarea,input {
 }
 
 a{
+	color: #000;
+	text-decoration: none;
 	@include transition (color 0.3s linear);
 }
 
