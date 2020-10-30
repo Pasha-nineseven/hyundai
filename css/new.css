@@ -1,0 +1,310 @@
+
+.text_play .text1{
+	text-align: center;
+	font-size: 30px;
+    line-height: 40px;
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-family: "HyundaiMedium", "Arial", sans-serif;
+}
+.text_play .text2{
+	text-align: center;
+	font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.slider_text ul{
+	margin-bottom: 0;
+}
+.slider_text ul li{
+	margin-bottom: 0;
+}
+.slider_text ul li:before{
+	display: none;
+}
+
+.text_wrap ul{
+	margin-bottom: 0;
+}
+.text_wrap ul li{
+	margin-bottom: 0;
+}
+.text_wrap ul li:before{
+	display: none;
+}
+
+@media print,screen and (min-width:741px) and (max-width:20000px){
+
+	/* PIP - Safety */
+	.pip.contents_safety .morelist {padding: 100px 0 95px 0;}
+	.pip.contents_safety .caution {font-size:12px;}
+	.pip.contents_safety .pip_cont {}
+	.pip.contents_safety .pip_cont .text_play {height: 1px;overflow: visible;}
+	.pip.contents_safety .visual_text {
+		padding-top: 120px;
+		width: 960px;
+		margin: 150px auto 0 auto;
+	}
+	.pip.contents_safety .visual_text .img {
+		text-align: center;
+		position: relative;
+		margin-left: 50px;
+	}
+	.pip.contents_safety .visual_text .text_list {
+		font-size: 13px;
+		font-weight: bold;
+		color: #c84309;
+	}
+	.pip.contents_safety .visual_text .text_list li {
+		position: absolute;
+		text-align: left;
+	}
+	.pip.contents_safety .visual_text .text_list .text1 {
+		left: 232px;
+		top: 24px;
+	}
+	.pip.contents_safety .visual_text .text_list .text2 {
+		left: 384px;
+		top: 0;
+	}
+	.pip.contents_safety .visual_text .text_list .text3 {
+		left: 303px;
+		top: 584px;
+	}
+	.pip.contents_safety .visual_text .text_list .text4 {
+		left: 370px;
+		top: 519px;
+	}
+	.pip.contents_safety .scene_wrap {position: relative;width: 940px;margin: 0 auto;height: 1046px;margin-top:-35px;}
+	.pip.contents_safety .scene_wrap .slider_wrap {position: absolute;z-index: 4;left: -10px;top: 282px;width: 960px;height: 30px;background: url("../assets/img/safety/bg_slider3.png") no-repeat 50% 9px;}
+	.pip.contents_safety .scene_wrap .slider_wrap .ui-slider {position: relative;width: 800px;margin: 0 auto;border:0px; background:none; height:30px;}
+	.pip.contents_safety .scene_wrap .slider_wrap .ui-slider .ui-slider-range {height: 30px;background: url("../assets/img/safety/bg_slider3.png") no-repeat -5px -21px;}
+	.pip.contents_safety .scene_wrap .slider_wrap .ui-slider .ui-slider-handle {position: absolute;top: 0 !important;display: block;width:26px !important;height:26px !important;margin-left: -13px !important;background: url("../assets/img/safety/bg_slider_handle3.png") no-repeat 0 0 !important;border:0 !important;border-radius:0 !important;}
+	.pip.contents_safety .scene_wrap .slider_wrap .slider_text {width: 900px;margin: 0 auto;}
+	.pip.contents_safety .scene_wrap .slider_wrap .slider_text ul li {float: left;width: 100px;margin-left: 100px;padding:15px 0 0 0;text-align: center;color: #666;font-size: 14px;font-weight: bold;}
+	.pip.contents_safety .scene_wrap .slider_wrap .slider_text ul li.on {color: #418ce5;}
+	.pip.contents_safety .scene_wrap .slider_wrap .slider_text ul li:first-child {margin-left: 0;}
+	.pip.contents_safety .scene_wrap .text_wrap {position: absolute;z-index: 2;left: 65px;top: 373px;height: auto;min-height: 1px;max-height: 999999px;}
+	.pip.contents_safety .scene_wrap .text_wrap ul li {display: none;}
+	.pip.contents_safety .scene_wrap .text_wrap ul li:first-child {display: block;}
+	.pip.contents_safety .scene_wrap .text_wrap ul li strong {display: block;padding: 0 0 9px 0;font-size: 16px;color: #e1e1e1;line-height: 24px;color: #333;}
+	.pip.contents_safety .scene_wrap .text_wrap ul li p {font-size: 14px;line-height: 20px;width: 660px;color: #888;}
+	.pip.contents_safety .scene_wrap .text_wrap ul li span.notice_wrap {display: block;padding: 3px 0 0 0;background: #fff;}
+	.pip.contents_safety .scene_wrap .text_wrap ul li span.notice_wrap span.notice {display: block;padding: 7px 0 0 15px;font-size: 12px;line-height: 15px;color: #736357;background: url("../assets/img/safety/icon_notice.png") no-repeat 0 9px;}
+
+	.pip.contents_safety .scene_wrap .text_wrap .caution {position: relative;	display: block;	margin-top: 15px;	padding-left: 15px;	font-size: 12px;line-height: 14px;color: #998675;}
+	.pip.contents_safety .scene_wrap .text_wrap .caution:before {	position: absolute;left: 0;top: 0;width: 12px;height: 12px;background: #998675;content: "!";font-size: 10px;font-family: "Arial";line-height: 13px;text-indent: 0;color: #fff;font-weight: bold;text-align: center;border-radius: 50%;}
+	.pip.contents_safety .scene_wrap .controls {position: absolute;z-index: 3;left: 720px;top: 401px;}
+	.pip.contents_safety .scene_wrap .controls a {float: left;display: block;width: 65px;height: 22px;padding: 48px 0 0 0;background: url("../assets/img/safety/bg_slider_control2.png") no-repeat 10px 0;color: #555;font-size: 12px;text-align: center;}
+	.pip.contents_safety .scene_wrap .controls a.replay {background-position: 10px 0;}
+	.pip.contents_safety .scene_wrap .controls a.replay:hover {background-position: 10px -90px;color: #888;text-decoration: none;}
+	.pip.contents_safety .scene_wrap .controls a.play {background-position: -55px 0;}
+	.pip.contents_safety .scene_wrap .controls a.play:hover {background-position: -55px -90px;color: #888;text-decoration: none;}
+	.pip.contents_safety .scene_wrap .controls a.stop {display: none;background-position: -120px 0;}
+	.pip.contents_safety .scene_wrap .controls a.stop:hover {background-position: -120px -90px;color: #888;text-decoration: none;}
+	.pip.contents_safety .scene_wrap .controls a.next {background-position: -185px 0;}
+	.pip.contents_safety .scene_wrap .controls a.next:hover {background-position: -185px -90px;color: #888;text-decoration: none;}
+	.pip.contents_safety .scene_wrap .scene {position: absolute;z-index: 1;left: -170px;top: 200px;width: 1280px;height: 846px;display: none;}
+	.pip.contents_safety .scene_wrap .scene.scene1 .bg {position: absolute;left: 22px;top: 439px;width: 1301px;height: 172px;background: url("../assets/img/safety/safety_scene1_bg.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar > div {position:absolute;}
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car1,
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car2,
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car3,
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car4,
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car5,
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car6,
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car7,
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car8,
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car9 {width: 205px;height: 109px; top:466px; background: url("../assets/img/safety/safety_scene1_mycar1.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car1 {left: 990px; }
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car2 {left: 920px; }
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car3 {left: 850px; }
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car4 {left: 780px; }
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car5 {left: 700px; }
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car6 {left: 620px; }
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car7 {left: 530px; }
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car8 {left: 440px; }
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car9 {left: 325px; }
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car10,
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car11,
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car12,
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car13,
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car14,
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car15 {width: 224px;height: 117px; top:464px; background: url("../assets/img/safety/safety_scene1_mycar2.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car10 {left: 210px; }
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car11 {left: 210px; }
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car12 {left: 210px; }
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car13 {left: 210px; }
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car14 {left: 210px;  }
+	.pip.contents_safety .scene_wrap .scene.scene1 .mycar div.car15 {left: 210px;  }
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar > div {position:absolute;}
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car1,
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car2,
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car3,
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car4,
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car5,
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car6,
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car7 {width:729px;height:795px; top:114px; background:url("../assets/img/safety/safety_scene1_yourcar1.png");}
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car1 {left: 470px;}
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car2 {left: 380px;}
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car3 {left: 290px;}
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car4 {left: 175px;}
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car5 {left: 60px;}
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car6 {left: 10px;}
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car7 {left: -40px;}
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car8 {width:689px;height:722px; top:160px; left: 18px; background:url("../assets/img/safety/safety_scene1_yourcar2.png");}
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car9 {width:629px;height:656px; top:193px; left: 78px; background:url("../assets/img/safety/safety_scene1_yourcar3.png");}
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car10 {width:747px;height:814px; top:114px; left: -40px; background:url("../assets/img/safety/safety_scene1_yourcar4.png");}
+	.pip.contents_safety .scene_wrap .scene.scene1 .yourcar div.car11 {width:689px;height:722px; top:160px; left: 18px; background:url("../assets/img/safety/safety_scene1_yourcar5.png");}
+	.pip.contents_safety .scene_wrap .scene.scene2 {background: #ffffff;}
+	.pip.contents_safety .scene_wrap .scene.scene2 .bg div {position: absolute;left: 22px;top: 439px;width: 1301px;height: 172px;}
+	.pip.contents_safety .scene_wrap .scene.scene2 .bg div.bg1 {background: url("../assets/img/safety/safety_scene2_bg2.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene2 .bg div.bg2 {background: url("../assets/img/safety/safety_scene2_bg1.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene2 .mycar {position: absolute;left: 489px;top: 523px;width: 1px;height: 1px;}
+	.pip.contents_safety .scene_wrap .scene.scene2 .mycar .car {display: block;width: 218px;height: 116px;margin: -57px 0 0 -88px;background: url("../assets/img/safety/safety_scene2_mycar1.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene2 .mycar .info div {position: absolute;left: -52px;top: -211px;width: 93px;height: 168px;}
+	.pip.contents_safety .scene_wrap .scene.scene2 .mycar .info div.info1 {background: url("../assets/img/safety/safety_scene2_info.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene2 .mycar .info div.info2 {background: url("../assets/img/safety/safety_scene2_info.png") no-repeat -100px 0;}
+	.pip.contents_safety .scene_wrap .scene.scene2 .mycar .line div {position: absolute;left: 100px;top: -366px;width: 507px;height: 732px;}
+	.pip.contents_safety .scene_wrap .scene.scene2 .mycar .line div.line1 {background: url("../assets/img/safety/safety_car_line2_4.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene2 .mycar .line div.line2 {background: url("../assets/img/safety/safety_car_line2_3.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene2 .mycar .line div.line3 {background: url("../assets/img/safety/safety_car_line2_2.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene2 .mycar .line div.line4 {background: url("../assets/img/safety/safety_car_line2_1.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene2 .yourcar {position: absolute;left: 1258px;top: 372px;width: 1px;height: 1px;}
+	.pip.contents_safety .scene_wrap .scene.scene2 .yourcar .car {display: block;width: 209px;height: 111px;margin: -56px 0 0 -146px;background: url("../assets/img/safety/safety_scene2_yourcar1.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene3 {background:#ffffff;}
+	.pip.contents_safety .scene_wrap .scene.scene3 .bg div {position:absolute;left:22px;top:439px;width:1301px;height:172px;}
+	.pip.contents_safety .scene_wrap .scene.scene3 .bg div.bg1 {background:url("../assets/img/safety/safety_scene3_bg1.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene3 .bg div.bg2 {background:url("../assets/img/safety/safety_scene3_bg2.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene3 .mycar {position:absolute;z-index:3;left:852px;top:524px;width:1px;height:1px;}
+	.pip.contents_safety .scene_wrap .scene.scene3 .mycar .car {display:block;position:absolute;left:0;top:0;width:210px;height:113px;margin:-55px 0 0 -149px;background:url("../assets/img/safety/safety_scene3_mycar1.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene3 .mycar .line div {position:absolute;left:-586px;top:-255px;width:522px;height:506px;}
+	.pip.contents_safety .scene_wrap .scene.scene3 .mycar .line div.line1 {background:url("../assets/img/safety/safety_car_line3_1.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene3 .mycar .line div.line2 {background:url("../assets/img/safety/safety_car_line3_2.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene3 .mycar .line div.line3 {background:url("../assets/img/safety/safety_car_line3_3.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene3 .mycar .line div.line4 {background:url("../assets/img/safety/safety_car_line3_4.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene3 .info {position:absolute;left:756px;top:275px;z-index:-1;}
+	.pip.contents_safety .scene_wrap .scene.scene3 .info .info1 {width:93px;height:248px;overflow:hidden;background:url("../assets/img/safety/safety_scene3_info.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene3 .info .info2 {display:none;width:93px;height:248px;overflow:hidden;background:url("../assets/img/safety/safety_scene3_info.png") no-repeat -100px 0;}
+	.pip.contents_safety .scene_wrap .scene.scene3 .red {display:none;position:absolute;z-index:2;left:526px;top:437px;width:516px;height:15px;background:url("../assets/img/safety/safety_car_line9.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene4 {background: #191919;overflow: hidden;top:240px;height:807px;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .bg {position: absolute;left: 0px;top: 439px;width: 1280px;height: 280px;background: url("../assets/img/safety/safety_scene4_bg1.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .mycar div {position: absolute;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .mycar div.car1 {left: 878px;top: 425px;width: 446px;height: 146px;background: url("../assets/img/safety/safety_scene4_mycar1.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .mycar div.car2 {left: 760px;top: 425px;width: 446px;height: 146px;background: url("../assets/img/safety/safety_scene4_mycar1.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .mycar div.car3 {left: 662px;top: 425px;width: 446px;height: 146px;background: url("../assets/img/safety/safety_scene4_mycar1.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .mycar div.car4 {left: 582px;top: 425px;width: 446px;height: 146px;background: url("../assets/img/safety/safety_scene4_mycar1.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .mycar div.car5 {left: 517px;top: 425px;width: 463px;height: 147px;background: url("../assets/img/safety/safety_scene4_mycar2.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .mycar div.car6 {left: 467px;top: 425px;width: 463px;height: 147px;background: url("../assets/img/safety/safety_scene4_mycar2.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .mycar div.car7 {left: 427px;top: 425px;width: 463px;height: 147px;background: url("../assets/img/safety/safety_scene4_mycar2.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .mycar div.car8 {left: 371px;top: 442px;width: 455px;height: 161px;background: url("../assets/img/safety/safety_scene4_mycar3.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .mycar div.car9 {left: 327px;top: 450px;width: 450px;height: 169px;background: url("../assets/img/safety/safety_scene4_mycar4.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .mycar div.car10 {left: 285px;top: 449px;width: 424px;height: 243px;background: url("../assets/img/safety/safety_scene4_mycar5.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .mycar div.car11 {left: 260px;top: 458px;width: 398px;height: 292px;background: url("../assets/img/safety/safety_scene4_mycar6.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .mycar div.car12 {left: 285px;top: 471px;width: 336px;height: 368px;background: url("../assets/img/safety/safety_scene4_mycar7.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .mycar div.car13 {left: 295px;top: 500px;width: 297px;height: 418px;background: url("../assets/img/safety/safety_scene4_mycar8.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .mycar div.car14 {left: 311px;top: 553px;width: 250px;height: 447px;background: url("../assets/img/safety/safety_scene4_mycar9.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .mycar div.car15 {left: 377px;top: 623px;width: 166px;height: 459px;background: url("../assets/img/safety/safety_scene4_mycar10.png") no-repeat 0 0;}
+	.pip.contents_safety .scene_wrap .scene.scene4 .mycar div.car16 {left: 377px;top: 623px;width: 166px;height: 459px;background: url("../assets/img/safety/safety_scene4_mycar10.png") no-repeat 0 0;}
+
+	.pip.contents_safety .scene_wrap.black .slider_wrap {background: url("../assets/img/safety/bg_slider3.png") no-repeat 50% 9px;}
+	.pip.contents_safety .scene_wrap.black .slider_wrap .slider .ui-slider-range {background: url("../assets/img/safety/bg_slider3.png") no-repeat -5px -21px;}
+	.pip.contents_safety .scene_wrap.black .text_wrap ul li strong {color: #ebebeb;}
+	.pip.contents_safety .scene_wrap.black .slider_wrap {background: url("../assets/img/safety/bg_slider4.png") no-repeat 50% 9px;}
+	.pip.contents_safety .ride_and_handling {position: relative;width: 940px;height: 750px;margin: 0 auto;}
+	.pip.contents_safety .ride_and_handling .bluebox {width: 1280px;height: 750px;margin-left: -170px;position:relative;background:#f0f1f2;}
+	.pip.contents_safety .ride_and_handling .bluebox > .txt {display: block;width: 100%;height: 100px;font-size: 16px;line-height: 24px;padding: 70px 0 0 0;color: #222;font-family: 'ModernHEcoLight';font-size: 40px;line-height: 48px;text-align: center;}
+	.pip.contents_safety .ride_and_handling .bluebox > .txt,
+	.pip.contents_safety .ride_and_handling .bluebox .list {position:relative;z-index:3;}
+	.pip.contents_safety .ride_and_handling .bluebox .list {width: 820px;height: 100px;margin: 0 auto;}
+	.pip.contents_safety .ride_and_handling .bluebox .list ul {width: 720px;height: 100px;}
+	.pip.contents_safety .ride_and_handling .bluebox .list ul li {float: left;width: 120px;height: 100px;margin-right: 10px;background: #474950;}
+	.pip.contents_safety .ride_and_handling .bluebox .list ul li a {display: block; text-decoration:none; overflow:hidden; }
+	.pip.contents_safety .ride_and_handling .bluebox .list ul li a span {float:left;}
+	.pip.contents_safety .ride_and_handling .bluebox .list ul li a span.img {position: relative;width: 120px;height: 100px;overflow: hidden;}
+	.pip.contents_safety .ride_and_handling .bluebox .list ul li a span.img span.dim {display: block;width: 120px;height: 100px;position: absolute;left: 0;top: 0;z-index: 2;background: url("../assets/img/safety/bg_transparent_percent30_000000.png") repeat 0 0;}
+	.pip.contents_safety .ride_and_handling .bluebox .list ul li a span.txt {display: none;width: 176px;height: 100px;padding: 28px 12px 0;vertical-align: middle;font-size: 13px;color: #fff;font-weight: bold;line-height: 20px;}
+	.pip.contents_safety .ride_and_handling .bluebox .list ul li a:hover span.img span.dim {display: none;}
+	.pip.contents_safety .ride_and_handling .bluebox .list ul li.on {width: 320px;}
+	.pip.contents_safety .ride_and_handling .bluebox .list ul li.on a span.img {width: 116px;height: 92px;border: 4px solid #474950;border-right: 0;}
+	.pip.contents_safety .ride_and_handling .bluebox .list ul li.on a span.img img {margin-left: -4px;margin-top: -4px;}
+	.pip.contents_safety .ride_and_handling .bluebox .list ul li.on a span.txt {display:block;float:left;}
+	.pip.contents_safety .ride_and_handling .bluebox .list ul li.on a span.dim {display: none !important;}
+	.pip.contents_safety .ride_and_handling .bluebox .view ul li {display: none;}
+	.pip.contents_safety .ride_and_handling .bluebox .view ul li.on {display: block;position:absolute;width:100%;height:100%;left:0;top:0;}
+	.pip.contents_safety .ride_and_handling .bluebox .view ul li .text {position:absolute;display: block;line-height: 20px;z-index: 2;color: #666;font-size: 14px;}
+	.pip.contents_safety .ride_and_handling .bluebox .view ul li .text strong {display: block;padding: 0 0 15px 0;margin: 0 0 17px 0;font-size: 16px;line-height: 24px;color: #222;background: url("../assets/img/safety/line_orange_80.gif") no-repeat left bottom;}
+	.pip.contents_safety .ride_and_handling .bluebox .view ul li.tab1 .text {left:744px;top:310px;width:310px;}
+	.pip.contents_safety .ride_and_handling .bluebox .view ul li.tab2 .text {left:230px;top:310px;width:350px;}
+	.pip.contents_safety .ride_and_handling .bluebox .view ul li.tab3 .text {left:230px;top:310px;width:350px;}
+	.pip.contents_safety .ride_and_handling .bluebox .view ul li.tab3 .caution { font-size:12px; margin-top:15px; }
+	.pip.contents_safety .ride_and_handling .bluebox .view ul li.tab4 .text {left:230px;top:310px;width:340px;}
+	.pip.contents_safety .ride_and_handling .bluebox .list ul li.tab1 a span.img span.dim {background: url("../assets/img/safety/AEEV_wwh/safety_ride_list_1_bg.jpg") no-repeat 0 0;}
+	.pip.contents_safety .ride_and_handling .bluebox .list ul li.tab4 a span.img span.dim {background: url("../assets/img/safety/AEEV_wwh/safety_ride_list_4_bg.jpg") no-repeat 0 0;}
+
+	.pip.contents_safety .scene_wrap .text_wrap ul li .img{ display:none;}
+
+}
+@media screen and (min-width:0) and (max-width:740px){
+	.pip .pip_cont .text_play {position: relative; text-align:center; margin-bottom:20px;}
+	.pip .pip_cont .text_play .text1 {font-size: 19px;line-height: 24px;}
+	.pip .pip_cont .text_play .text2 {color: #666;font-size: 14px;line-height: 21px; margin-top:10px;}
+
+	.pip.contents_interior .section1 {position: relative;width: 100%;overflow: hidden;padding: 0;background: #fff; padding:10px 0 60px 0;}
+	.pip.contents_interior .section1 .features {clear: both;width: 100%;text-align: center; margin-top:20px;}
+	.pip.contents_interior .section1 .features strong {display: block;padding: 0 0 14px 0;font-size: 16px;color: #e1e1e1;line-height: 24px;color: #222; position:relative;}
+	.pip.contents_interior .section1 .features strong:after {content:""; display:block; position:absolute; left:50%;bottom:0;width:90px; height:1px;margin-left:-45px; background:#418ce5;}
+	.pip.contents_interior .section1 .features p {padding: 15px 0 0 0;font-size: 14px;line-height: 20px;color: #888;}
+	.pip.contents_interior .section1 .car { position:relative;padding:0 15px;}
+	.pip.contents_interior .section1 .car img {display: none;}
+	.pip.contents_interior .section1 .car img:first-child {display: inline;}
+	.pip.contents_interior .section1 .color { margin-top:20px;width: 100%;height: auto;min-height: 1px;max-height: 999999px; position:relative;}
+	.pip.contents_interior .section1 .color .txt {font-size: 12px;text-transform: uppercase;color: #333;text-align: center;font-weight: bold;}
+	.pip.contents_interior .section1 .color ul.chip {width: 100%;padding: 5px 0 0 0;text-align: center;}
+	.pip.contents_interior .section1 .color ul.chip li {display: inline-block;width: 29px;height: 29px;overflow: hidden;margin: 0 2px 0 3px;text-align: left;*display: inline;*zoom: 1;}
+	.pip.contents_interior .section1 .color ul.chip li a {display: block;width: 23px;height: 23px;padding: 3px;text-align: center;}
+	.pip.contents_interior .section1 .color ul.chip li.on a {background: url("../assets/img/safety/bg_interior_color_cover.png") no-repeat center top;}
+	.pip.contents_interior .section1 .color ul.chip li span.text {position: absolute;top: -6px;width: 200px;height: 20px;margin-left: -86px;line-height: 20px;color: #fefefe;font-size: 12px;text-align: center;}
+	.pip.contents_interior .section1 .color ul.chip li span.text span {display: inline-block;height: 20px;padding: 0 9px 0 8px;background: #464646;*display: inline;*zoom: 1;}
+	.pip.contents_interior .section1 .color ul.chip li span.text i {display: inline-block;top: 20px;width: 100%;height: 6px;background: url("../assets/img/safety/bg_arrow_white_down.png") no-repeat center top;*display: inline;*zoom: 1;}
+	.pip.contents_interior .section1 .color .details {width: 100%;padding: 11px 0 0 0;text-align: center;}
+	.pip.contents_interior .section1 .color .details ul.detail {display: none;width: 228px;height: 25px;margin: 0 auto;background: url("../assets/img/safety/interior_color_detail.png") no-repeat 0 0;}
+	.pip.contents_interior .section1 .color .details ul.detail li {float: left;position: relative;height: 25px;}
+	.pip.contents_interior .section1 .color .details ul.detail li span {display: none !important;}
+	.pip.contents_interior .section1 .color .details ul.detail li span.text {position: absolute;display: block;top: -32px;width: 200px;height: 20px;margin-left: -70px;line-height: 20px;color: #fefefe;font-size: 12px;text-align: center;}
+	.pip.contents_interior .section1 .color .details ul.detail li span.text span {display: inline-block;height: 20px;padding: 0 9px 0 8px;background: #464646;*display: inline;*zoom: 1;}
+	.pip.contents_interior .section1 .color .details ul.detail li span.text i {display: inline-block;top: 20px;width: 100%;height: 6px;background: url("../assets/img/safety/bg_arrow_white_down.png") no-repeat center top;*display: inline;*zoom: 1;}
+	.pip.contents_interior .section1 .color .details ul.detail li.color_detail1 {width: 25%;}
+	.pip.contents_interior .section1 .color .details ul.detail li.color_detail2 {width: 25%;}
+	.pip.contents_interior .section1 .color .details ul.detail li.color_detail3 {width: 25%;}
+	.pip.contents_interior .section1 .color .details ul.detail li.color_detail4 {width: 25%;}
+	.pip.contents_interior .section1 .color .details ul.detail.detail1 {display: block;background-position: 0 0;}
+	.pip.contents_interior .section1 .color .details ul.detail.detail2 {background-position: 0 -29px;}
+	.pip.contents_interior .section1 .color .details ul.detail.detail3 {background-position: 0 -58px;}
+	.pip.contents_interior .section1 .color .details ul.detail.detail4 {background-position: 0 -87px;}
+	.pip.contents_interior .section1 .color .details ul.detail4 li.color_detail1,
+	.pip.contents_interior .section1 .color .details ul.detail4 li.color_detail2 {width:113px;}
+	.pip.contents_interior .section1 .color .details ul.detail_txt {width: 280px;margin: 0 auto; overflow:hidden;}
+	.pip.contents_interior .section1 .color .details ul.detail_txt li {float: left;width: 100%;text-align: center;color: #707070; font-size:12px;}
+
+
+	.pip.contents_safety .scene_wrap .scene{ display:none !important;}
+	.pip.contents_safety .scene_wrap .controls{ display:none;}
+	.pip.contents_safety .scene_wrap .slider_wrap{ display:none;}
+	.pip.contents_safety .scene_wrap .text_wrap{margin:0 -15px;}
+	.pip.contents_safety .scene_wrap .text_wrap ul li { display:block !important;}
+	.pip.contents_safety .scene_wrap .text_wrap ul li:nth-child(2n) { background:#f7f7f7;}
+	.pip.contents_safety .scene_wrap .text_wrap ul li:last-child { padding-bottom:60px;}
+	.pip.contents_safety .scene_wrap .text_wrap ul li strong {display: block;padding: 23px 15px 10px 15px;font-weight: normal;font-size: 16px;line-height: 22px;}
+	.pip.contents_safety .scene_wrap .text_wrap ul li strong:after {display: block;	width: 48px;height: 1px;padding-top: 10px;border-bottom: 1px solid #418ce5;content: '';}
+	.pip.contents_safety .scene_wrap .text_wrap ul li div {color:#666;font-size: 14px;line-height: 18px;padding:0 15px;}
+	.pip.contents_safety .scene_wrap .text_wrap ul li div .caution {position: relative;	display: block;	margin-top: 10px;	padding-left: 15px;	font-size: 12px;line-height: 14px;color: #998675;}
+	.pip.contents_safety .scene_wrap .text_wrap ul li div .caution:before {	position: absolute;left: 0;top: 0;width: 12px;height: 12px;background: #998675;content: "!";font-size: 10px;font-family: "Arial";line-height: 13px;text-indent: 0;color: #fff;font-weight: bold;text-align: center;border-radius: 50%;}
+	.pip.contents_safety .scene_wrap .text_wrap ul li .img{ margin-top:10px;}
+
+	.pip.contents_safety .scene_wrap .text_wrap ul li.text4{ background:#191919;}
+	.pip.contents_safety .scene_wrap .text_wrap ul li.text4 strong{ color:#ffffff;}
+
+}
