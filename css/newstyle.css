@@ -1,0 +1,217 @@
+.top-nav__link {
+    line-height: 52px;
+    font-size: 14px;
+    font-family: 'HyundaiRegular', sans-serif;
+}
+
+.page-header__links{
+	display: none;
+}
+
+.top-nav__item {
+    margin: 0 13px;
+}
+.top-nav__item:first-of-type {
+    margin-left: 0;
+}
+.mobile-sh{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.page-header .page-container{
+	-webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.bottom-nav{
+	min-width: 100%;
+	background: #fff;
+}
+.top-nav-wrap{
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+	
+}
+.page-header{	
+	background: #F6F3F2;
+}
+.sliding-line{
+	bottom:auto;
+}
+.logo {
+    margin-right: 0;
+    position: absolute;
+    bottom: 4px;
+}
+.top-nav,
+.bottom-nav-list{
+    padding-left: 218px;
+}
+
+.bottom-nav-list .top-nav__link,
+.bottom-nav-list .top-nav__link__simple{
+    font-size: 16px;
+}
+
+.top-nav__link__simple{
+	display: block;
+	color: #666;
+	line-height: 52px;
+    font-size: 14px;
+    font-family: 'HyundaiRegular', sans-serif;
+    text-decoration: none;
+    transition: color 0.3s linear;
+}
+.top-nav__link__simple:hover{
+	color: #000;
+}
+
+.top-phones{
+	position: absolute;
+	right: 20px;
+	top: 0;
+	background: #002C5F;
+	color: #fff;
+	padding: 0 18px; 
+}
+.top-phones__item{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+	padding: 11px 0 12.5px;
+	border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.top-phones__item:last-child{
+	border-bottom: 0;
+}
+.top-phones span{	
+	text-align: right;
+	font-size: 14px;
+	white-space: nowrap;
+	-webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.top-phones a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'HyundaiMedium';
+	padding-left: 6px;
+	letter-spacing: 1px;
+/*	-webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;*/
+}
+.top-nav__list{
+	height: auto!important;
+}
+
+.top-phones-container{
+	width: 100%;
+    max-width: 1160px;
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.js-wrap{
+	display: none!important;
+}
+
+@media screen and (max-width: 1200px){
+	.top-nav,
+	.bottom-nav-list{
+	    padding-left: 95px;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.top-phones a{
+		font-size: 14px;
+	}
+	.top-phones {
+	    padding: 0 10px;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.page-header__links{
+		display: block;
+	}
+	.bottom-nav{
+		display: none;
+	}
+	.top-phones span{
+		display: none;
+	}
+	.page-header {
+	    background: #fff;
+	    padding: 22px 0px 21px;
+	}
+	.top-phones-container{
+		width: 100%;
+	}
+	.top-phones {
+	    padding: 10px 10px 11px;
+		right: auto;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.top-phones__item{
+		padding: 0;
+		border:0; 
+		display: block;
+		line-height: 1;
+		margin-bottom: 6px;
+	}
+	.top-phones__item:last-child{
+		margin-bottom: 0;
+	}
+	.mobile-sh{
+		width: 100%;
+	    min-width: 100%;
+	    -webkit-box-pack: end;
+	    -webkit-justify-content: flex-end;
+	    -ms-flex-pack: end;
+	    justify-content: flex-end;
+	}
+	.js-wrap{
+		display: none!important;
+	}
+	.page-top, .main-banner {
+	    margin-top: 59px;
+	}
+	.logo {
+	    bottom: 0px;
+	}
+	.top-nav {
+	    top: calc(100% + 21px);
+	    padding-bottom: 180px;
+	     padding-left: 0;
+   	 	overflow-y: auto;
+   	 	background: #e8e8e8;
+	}
+	.top-nav__item {
+	    margin: 0;
+	}
+	.top-nav__link__simple{
+		padding: 0 16px;
+		color: #000;
+	}
+	.search-area{
+		top: 37px;
+	}
+
+}	

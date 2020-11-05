@@ -1063,31 +1063,31 @@ $(window).on('resize load', function() {
 });
 
 // links pages
-$('body').append(
-    '<div style="position: fixed; z-index: 1005; bottom: 0; right: 0; background: #fff; border: solid 1px #828286; width: 250px;"> \
-     <a href="javascript:void(0);" style="float: right;background:#ccc; color:#000; padding: 3px 10px; text-decoration: none; font-size: 12px" onclick="$(this).parent().hide()">Close X</a> \
- <style> \
-     #pages li { line-height: 1.2; } \
-     #pages li a{ font-size: 14px; } \
- </style> \
- <ol id="pages"> \
-     <li><a href="text.html">Текстовая</a></li> \
-     <li><a href="news-list.html">Список новостей</a></li> \
-     <li><a href="news-detail.html">Детальная новостей</a></li> \
-     <li><a href="form.html">Форма</a></li> \
-     <li><a href="index.html">Главная</a></li> \
-     <li><a href="auto-list.html">Список авто</a></li> \
-     <li><a href="auto.html">Авто</a></li> \
-     <li><a href="models.html">Модельный ряд</a></li> \
-     <li><a href="404.html">404</a></li> \
-     <li><a href="features.html">Особенности</a></li> \
-     <li><a href="design.html">Дизайн</a></li> \
-     <li><a href="perfomance.html">Производительность</a></li> \
-     <li><a href="safety.html">Безопасность</a></li> \
-     <li><a href="tabs.html">Табы</a></li> \
-     <li><a href="blocks.html">Блоки</a></li> \
-     <li><a href="old.html">Б/У</a></li> \
-     <li><a href="contact.html">Контакты</a></li> \
-     <li><a href="hyundai_used-cars-list.html">hyundai_used-cars-list</a></li> \
- </ol> \
-</div>');
+// $('body').append(
+//     '<div style="position: fixed; z-index: 1005; bottom: 0; right: 0; background: #fff; border: solid 1px #828286; width: 250px;"> \
+//      <a href="javascript:void(0);" style="float: right;background:#ccc; color:#000; padding: 3px 10px; text-decoration: none; font-size: 12px" onclick="$(this).parent().hide()">Close X</a> \
+//  <style> \
+//      #pages li { line-height: 1.2; } \
+//      #pages li a{ font-size: 14px; } \
+//  </style> \
+//  <ol id="pages"> \
+//      <li><a href="text.html">Текстовая</a></li> \
+//      <li><a href="news-list.html">Список новостей</a></li> \
+//      <li><a href="news-detail.html">Детальная новостей</a></li> \
+//      <li><a href="form.html">Форма</a></li> \
+//      <li><a href="index.html">Главная</a></li> \
+//      <li><a href="auto-list.html">Список авто</a></li> \
+//      <li><a href="auto.html">Авто</a></li> \
+//      <li><a href="models.html">Модельный ряд</a></li> \
+//      <li><a href="404.html">404</a></li> \
+//      <li><a href="features.html">Особенности</a></li> \
+//      <li><a href="design.html">Дизайн</a></li> \
+//      <li><a href="perfomance.html">Производительность</a></li> \
+//      <li><a href="safety.html">Безопасность</a></li> \
+//      <li><a href="tabs.html">Табы</a></li> \
+//      <li><a href="blocks.html">Блоки</a></li> \
+//      <li><a href="old.html">Б/У</a></li> \
+//      <li><a href="contact.html">Контакты</a></li> \
+//      <li><a href="hyundai_used-cars-list.html">hyundai_used-cars-list</a></li> \
+//  </ol> \
+// </div>');
