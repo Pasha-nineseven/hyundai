@@ -153,6 +153,15 @@
 	.bottom-nav{
 		display: none;
 	}
+	.top-phones span{
+		display: block;
+		text-align: right;
+		margin-bottom: 4px;
+	}
+	.top-phones a{
+		display: block;
+		text-align: right;
+	}
 	.page-header {
 	    background: #fff;
 	    padding: 22px 0px 21px;
